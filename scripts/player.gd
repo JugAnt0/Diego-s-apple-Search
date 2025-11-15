@@ -1,6 +1,8 @@
 extends CharacterBody2D
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var winning_zone: Area2D = $"../winning zone"
+@onready var camera_2d: Camera2D = $Camera2D
 
 const SPEED = 100.0
 const JUMP_VELOCITY = -250.0
